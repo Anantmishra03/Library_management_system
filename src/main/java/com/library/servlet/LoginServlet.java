@@ -24,7 +24,7 @@ public class LoginServlet extends HttpServlet {
         try {
             Class.forName("com.mysql.jdbc.Driver"); // Use cj for newer versions
             Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/library", "root", ""
+                "jdbc:mysql://localhost:3306/library", "root", "'Enter your password'"
             );
 
             PreparedStatement ps = con.prepareStatement("SELECT * FROM users WHERE username = ?");

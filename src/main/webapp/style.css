@@ -1,0 +1,559 @@
+@charset "UTF-8";
+/*Login page*/
+body {
+    margin: 0;
+    padding: 0;
+     background: url('img/i1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.login-box {
+    width: 320px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin-bottom: 30px;
+    line-height: 1.4;
+    
+    
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-box button {
+    width: 105%;
+    padding: 10px;
+    border: none;
+    background: #1e90ff;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #0b76d1;
+}
+
+.login-box a {
+    color: #ccc;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+
+
+
+/*Home Page*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   background: url('img/i1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    background-color:white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+}
+
+.card span {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    background-color:#008CFF;
+}
+
+
+
+
+
+/*New Student*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('img/i1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 320px;
+    padding: 30px 20px;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 10px #000;
+}
+
+.form-container h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.save-btn, .close-btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.save-btn {
+    background-color: #008CFF;
+    color: white;
+}
+
+.close-btn {
+    background-color:red;
+    color: black;
+}
+
+
+
+
+
+
+/*New Book*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('img/i1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 320px;
+    padding: 30px 20px;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 10px #000;
+}
+
+.form-container h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subheading {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.form-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.save-btn, .close-btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.save-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.close-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+
+
+/*issue Book*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('img/i1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 320px;
+    padding: 30px 20px;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 10px #000;
+}
+
+.form-container h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.issue-btn,
+.close-btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.issue-btn {
+    background-color: #28a745; /* Green color */
+    color: white;
+}
+
+.close-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+
+
+
+
+
+/* Return Book */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('img/i1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 340px;
+    padding: 30px 20px;
+    margin: 80px auto;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 12px #000;
+}
+
+.form-container h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container select {
+    width: 92%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+.form-container input[type="date"] {
+    color-scheme: dark; /* better date icon visibility */
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.issue-btn,
+.close-btn {
+    padding: 12px 0;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 48%;
+    transition: background-color 0.3s ease;
+}
+
+.issue-btn {
+    background-color:blue; /* Green */
+    color: white;
+}
+
+.issue-btn:hover {
+    background-color: #218838;
+}
+
+.close-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.close-btn:hover {
+    background-color: #c82333;
+}
+
+
+
+
+/* Return Book  */
+.form-container1 {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 340px;
+    padding: 30px 20px;
+    margin: 80px auto;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 12px #000;
+}
+
+.form-container1 h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.form-container1 input[type="text"],
+.form-container1 input[type="date"],
+.form-container1 select {
+    width: 92%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+.form-container1 input[type="date"] {
+    color-scheme: dark;
+}
+
+/* Button group for Return Book */
+.button-group1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.return-btn1,
+.close-btn1 {
+    padding: 12px 0;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 48%;
+    transition: background-color 0.3s ease;
+}
+
+/* ✅ Green Return button */
+.return-btn1 {
+    background-color: #28a745;
+    color: white;
+}
+
+.return-btn1:hover {
+    background-color: #218838;
+}
+
+/* Red Close button */
+.close-btn1 {
+    background-color: #dc3545;
+    color: white;
+}
+
+.close-btn1:hover {
+    background-color: #c82333;
+}
+
+
+
+
+
+/*Statistics*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('img/i1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+table {
+    width: 90%;
+    margin: 0 auto 30px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    border-collapse: collapse;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+
+.close-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.close-button:hover {
+    background-color: #cc0000;
+}

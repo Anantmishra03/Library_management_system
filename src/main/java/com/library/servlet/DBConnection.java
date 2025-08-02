@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/library"; // your database
     private static final String USER = "root"; 
-    private static final String PASSWORD = "Anant@2004"; 
+    private static final String PASSWORD = ""; 
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver"); // ✅ Recommended for MySQL 8+

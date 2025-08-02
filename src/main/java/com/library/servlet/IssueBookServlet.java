@@ -21,7 +21,7 @@ public class IssueBookServlet extends HttpServlet {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/library", "root", "");
+                "jdbc:mysql://localhost:3306/library", "root", "'Enter your password'");
 
             // ✅ 1. Check if student exists
             PreparedStatement studentCheck = con.prepareStatement(

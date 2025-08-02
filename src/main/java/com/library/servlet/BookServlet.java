@@ -24,7 +24,7 @@ public class BookServlet extends HttpServlet {
 
             // Connect to database
             Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/library", "root", "Anant@2004");
+                "jdbc:mysql://localhost:3306/library", "root", "");
 
             // Insert query
             String query = "INSERT INTO new_book (book_id, book_name, publisher, price) VALUES (?, ?, ?, ?)";

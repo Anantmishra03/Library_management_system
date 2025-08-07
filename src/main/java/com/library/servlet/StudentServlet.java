@@ -33,7 +33,7 @@ public class StudentServlet extends HttpServlet {
 
             // Connect to database
             Connection con = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/library", "root", "'Enter your password'");
+                    "jdbc:mysql://localhost:3306/library", "root", "Anant@2004");
 
             // Insert query
             String query = "INSERT INTO new_student (student_id, student_name, course, branch) VALUES (?, ?, ?, ?)";
